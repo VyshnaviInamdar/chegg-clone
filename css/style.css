@@ -1,0 +1,129 @@
+.nav-sep{
+    border-right: 1px solid lightgray;
+}
+.hero{
+    background-image: url('../img/hero.webp');
+    height: 600px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-size: cover;
+}
+.content{
+    padding: 180px 0 0 230px;
+    color: white;
+    width: 900px;
+}
+.img-header{
+    position: relative;
+}
+.tag{
+    position: absolute;
+    top:0;
+    background-color: rgb(235, 113, 0);
+    color: white;
+    padding: 8px 26px;
+    border-radius: 6px 0 6px 0;
+}
+.img{
+    height: 450px;
+}
+.width{
+    width: 1000px;
+}
+.margin{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.m-top{
+    margin-top: 100px;
+}
+.navbar-width{
+    width: 1100px;
+}
+.heroine-1{
+    background-image: url("../img/panel-careers.webp");
+    height: 550px;
+    color: white;
+    text-align: center;
+    background-size: cover;
+    border-radius: 12px;
+}
+.heroine-2{
+    background-image: url("../img/panel-life.webp");
+    height: 550px;
+    color: white;
+    text-align: center;
+    background-size: cover;
+    border-radius: 12px;
+}
+.img-content{
+    padding: 70px;
+    padding-top: 160px;
+}
+.search{
+    padding: 12px;
+    width: 520px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    border: 1px solid rgb(255, 196, 0);
+    border-radius: 4px;
+    /* position: absolute; */
+}
+.search:hover{
+    border: 1px solid rgb(235, 113, 0);
+}
+.search:focus{
+    outline: none;
+    border: 2px solid rgb(235, 86, 0);
+}
+.search-container{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-btn{
+    margin-left: -95px;
+    align-items: center;
+ } 
+/* mobile screen */
+@media(max-width :586px){
+    .hero-lg{
+        display: none;
+    }
+
+    .hero-mobile{
+        display: block;
+    }
+}
+/* large screen */
+@media(min-width :586px){
+    .hero-lg{
+        display: block;
+    }
+
+    .hero-mobile{
+        display: none;
+    }
+}
+.nav-link{
+    transition: 300ms;
+    padding: 0 10px;
+    color: black;
+    font-weight: bold;
+}
+.nav-link:hover{
+    border-bottom: 5px solid rgb(235, 113, 0),;
+}
+.chegg-links{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+.chegg-links:hover{
+    text-decoration-line: underline;
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+}
